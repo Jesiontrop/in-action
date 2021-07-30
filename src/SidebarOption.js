@@ -1,12 +1,15 @@
 import React from "react"
 import "./SidebarOption.scss"
 
-function SidebarOption(props) {
-    Icon = props.Icon;
+function SidebarOption({ children, Icon, active, onClick, id }) {
     return (
-        <div className={`sidebarOption ${props.active && "sidebarOption--active"}`}>
+        <div id={id} 
+            className={`sidebarOption ${active && "sidebarOption--active"}`}
+            onClick={onClick}>
             <Icon />
-            <h2>{props.children}</h2>
+            <h2>{children}</h2>
         </div>
     )
 }
+
+export default SidebarOption;
