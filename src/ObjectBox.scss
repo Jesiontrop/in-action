@@ -1,0 +1,49 @@
+@import "App.scss";
+
+.objBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid $background;
+    padding-right: 10px;
+}
+
+.objBox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.objBox__input {
+    display: flex;
+    padding: 20px;
+}
+
+.objBox__input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.objBox__input > input:focus {
+    outline: none;
+}
+
+.objBox__button {
+    background-color: $base-color !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-transform: inherit !important;
+    border-radius: 20px !important;
+    height: 45px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}
+
+.objBox__button:disabled {
+    opacity: 0.5;
+}
+
+.objBox__imageInput {
+    border: none;
+    padding: 15px;
+}
