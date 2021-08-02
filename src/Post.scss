@@ -1,0 +1,47 @@
+@import "App.scss";
+
+.post__body > img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  .post {
+    display: flex;
+    align-items: flex-start;
+    max-width: fit-content;
+    border-bottom: 1px solid $background;
+  }
+  .post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .post__badge {
+    font-size: 14px !important;
+    color: $base-color;
+  }
+  .post__headerSpecial {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+  }
+  .post__headerText > h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  // Text in the post
+  .post__headerDescription {
+    font-size: 15px;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+  }
+  .post__body {
+    flex: 1;
+    padding: 10px;
+    padding-left: 0px;
+  }
+  .post__avatar {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
