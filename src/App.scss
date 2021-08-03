@@ -12,4 +12,20 @@ $background: #e6ecf0;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+
+    .sidebar {
+        width: 100%;
+        flex-basis: 20vw;
+    }
+
+    .feed {
+        width: fit-content;
+        flex-basis: 47vw;
+    }
+
+    .widgets {
+        width: 100%;
+        flex-basis: 33vw;
+    }
 }
+
