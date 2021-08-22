@@ -11,6 +11,8 @@
     margin-top: 20px !important;
   }
   .sidebar {
+    display: flex;
+    flex-direction: column;
     flex: 0.25;
     min-width: 250px;
     padding-top: 20px;
@@ -24,6 +26,6 @@
     margin-bottom: 20px;
   }
   .sidebar__lastObj {
-    @extend .sidebar__obj;
     margin-top: auto;
+    margin-bottom: 10px;
   }
