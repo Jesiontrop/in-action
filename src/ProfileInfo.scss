@@ -1,0 +1,52 @@
+@import "App.scss";
+
+.box {
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 9999px;
+}
+
+.box:hover {
+    background-color: rgba(15, 20, 25, 0.1);
+}
+
+.box__info {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    -webkit-box-align: stretch;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    max-width: 100%;
+    outline-style: none;
+
+    #displayname {
+        font-weight: 700;
+        font-size: 15px;
+        color: rgb(15, 20, 25);
+        line-height: 20px;
+        min-width: 0px;
+    }
+
+    #username {
+        font-weight: 400;
+        font-size: 15px;
+        color: rgb(83, 100, 113);
+        line-height: 20px;
+        min-width: 0px;
+    }
+}
+
+.box__more {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    margin-left: auto;
+}
