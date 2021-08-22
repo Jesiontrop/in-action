@@ -3,11 +3,11 @@
 .post__body > img {
     border-radius: 20px;
     width: 100%;
+    
   }
   .post {
     display: flex;
     align-items: flex-start;
-    max-width: fit-content;
     border-bottom: 1px solid $background;
   }
   .post__footer {
@@ -24,6 +24,9 @@
     font-size: 12px;
     color: gray;
   }
+  .post__header {
+    max-width: fit-content;
+  }
   .post__headerText > h3 {
     font-size: 15px;
     margin-bottom: 5px;
@@ -36,6 +39,8 @@
     box-sizing: border-box;
   }
   .post__body {
+    display: flex;
+    flex-direction: column; 
     flex: 1;
     padding: 10px;
     padding-left: 0px;
