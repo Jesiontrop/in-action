@@ -8,6 +8,7 @@ $background: #e6ecf0;
 
 .app {
     display: flex;
+    flex-direction: row;
     height: 100vh;
     max-width: 1300px;
     margin-left: auto;
@@ -17,9 +18,8 @@ $background: #e6ecf0;
         width: 100%;
         flex-basis: 20vw;
     }
-
     .feed {
-        width: fit-content;
+        width: 100%;
         flex-basis: 47vw;
     }
 
@@ -27,5 +27,6 @@ $background: #e6ecf0;
         width: 100%;
         flex-basis: 33vw;
     }
+    
 }
 
