@@ -1,7 +1,6 @@
 import React,  {useEffect, useState} from "react";
 import "./Sidebar.scss";
 import SidebarOption from "./SidebarOption";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";

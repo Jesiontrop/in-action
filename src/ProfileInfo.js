@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./ProfileInfo.scss"
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import {Menu, Popover, Avatar} from '@material-ui/core';
+import {Menu, Avatar} from '@material-ui/core';
 import MenuItem from '@material-ui/core/MenuItem';
 
 function ProfileInfo({displayName, username, avatar, onClick}) {
