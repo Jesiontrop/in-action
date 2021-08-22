@@ -11,6 +11,7 @@ import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Button } from "@material-ui/core";
+import ProfileInfo from "./ProfileInfo";
 
 function Sidebar() {
 
@@ -47,7 +48,13 @@ function Sidebar() {
                 New Action
             </Button>
 
-
+            <div className="sidebar__lastObj">
+                <ProfileInfo 
+                    username="@Jesiontrop"
+                    displayName="Andrey Barkov"
+                    avatar="https://www.malatyakale.bel.tr/tema/genel/uploads/profiller/anonymous-avatar-icon-25_1.jpg"
+                />
+            </div>
         </div>
     )
 }
