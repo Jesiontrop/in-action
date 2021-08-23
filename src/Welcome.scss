@@ -1,0 +1,59 @@
+@import "App.scss";
+
+.welcome {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: auto;
+    height: 100vh;
+    justify-content: center;
+
+    .welcome__image {
+        min-height: 45vh;
+        justify-content: center;
+        overflow: hidden;
+        flex: 1;
+        z-index: -1;
+        background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png);
+        img { 
+            inset: 0px;
+            height: 100%;
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+
+    .welcome__logout {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        min-width: 45vw;
+        justify-content: center;
+
+        .logout__obj {
+            width: fit-content;
+            border-radius: 9999px;
+            border-color: rgb(207, 217, 222);
+            border-width: 1px;
+            border-style: solid;
+            min-width: 52px;
+            min-height: 52px;
+            max-width: 380px;
+            margin-bottom: 20px;
+            padding-left: 32px;
+            padding-right: 32px;
+
+            transition-property: background-color, box-shadow;
+            transition-duration: 0.2s;
+        }
+    }
+}
+
+.link {
+    color: $base-color;
+    text-decoration: underline;
+}
